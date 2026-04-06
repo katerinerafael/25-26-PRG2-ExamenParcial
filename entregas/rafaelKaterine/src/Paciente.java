@@ -8,6 +8,6 @@ class Paciente{
     }
     public void mostrar(){
         Console console = new Console();
-        console.writeln("Paciente: " + this.nombre + " | DNI: " + this.DNI);
+        console.writeln("Paciente: " + this.nombre + " DNI: " + this.DNI);
     }
 }
