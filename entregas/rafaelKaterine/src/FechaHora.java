@@ -15,6 +15,6 @@ class FechaHora {
 
     @Override
     public String toString() {
-        return this.dia + "/" + this.mes + "/" + this.año + " a las " + this.hora + ":00";
+        return this.dia + "/" + this.mes + "/" + this.año + " a las " + this.hora + "";
     }
 }

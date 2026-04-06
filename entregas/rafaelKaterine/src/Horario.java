@@ -10,6 +10,6 @@ class Horario{
     }
     @Override
     public String toString() {
-        return this.diaInicio + " a " + this.diaFinal + " (" + this.horaInicio + ":00 - " + this.horaFinal + ":00)";
+        return this.diaInicio + " a " + this.diaFinal + " (" + this.horaInicio + " - " + this.horaFinal + ")";
     }
 }

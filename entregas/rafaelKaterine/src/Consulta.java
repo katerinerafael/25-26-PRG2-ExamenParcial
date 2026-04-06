@@ -14,12 +14,11 @@ class Consulta{
     }
     public void mostrar(){
         Console console = new Console();
-        console.writeln("--- DETALLE DE CONSULTA ---");
+        console.writeln("CONSULTA");
         this.paciente.mostrar();
         this.medico.mostrar();
         console.writeln("Fecha: " + this.fecha);
         console.writeln("Diagnóstico: " + this.diagnostico);
         console.writeln("Tratamiento: " + this.tratamiento);
-        console.writeln("---------------------------");
     }
 }
