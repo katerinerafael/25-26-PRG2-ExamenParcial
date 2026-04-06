@@ -9,6 +9,7 @@ class FechaHora {
         this.mes = mes;
         this.año = año;
         this.hora = hora;}
+        
     public FechaHora(int hora){
         this.hora = hora;}
 }
