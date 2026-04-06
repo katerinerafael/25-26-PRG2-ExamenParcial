@@ -17,6 +17,7 @@ class Consulta{
         console.writeln("--- DETALLE DE CONSULTA ---");
         this.paciente.mostrar();
         this.medico.mostrar();
+        console.writeln("Fecha: " + this.fecha);
         console.writeln("Diagnóstico: " + this.diagnostico);
         console.writeln("Tratamiento: " + this.tratamiento);
         console.writeln("---------------------------");

@@ -12,4 +12,9 @@ class FechaHora {
         
     public FechaHora(int hora){
         this.hora = hora;}
+
+    @Override
+    public String toString() {
+        return this.dia + "/" + this.mes + "/" + this.año + " a las " + this.hora + ":00";
+    }
 }

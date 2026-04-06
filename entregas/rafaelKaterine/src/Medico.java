@@ -15,8 +15,10 @@ class Medico {
     }
     public void mostrar(){
         Console console = new Console();
-        console.writeln("Medico: " + this.nombre + " | Especialidad: " + this.especialidad + " | Horario: " + this.horario);
+        String textoHorario = (this.horario != null) ? this.horario.toString() : "No asignado";
+        console.writeln("Medico: " + this.nombre + " | Especialidad: " + this.especialidad + " | Horario: " + textoHorario);
     }
+
     public void asignarHorario(Horario horario){
         this.horario = horario;
     }

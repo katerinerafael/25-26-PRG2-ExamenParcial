@@ -14,6 +14,9 @@ class Cliente {
 
         Medico drJuan = new Medico("DR Juan", "Cardiologia");
         Medico drAna = new Medico("DR Ana", "Dermatologia");
+        drJuan.asignarHorario(horarioDRjuan);
+        drAna.asignarHorario(horarioDRAna);
+
 
         drJuan.mostrar();
         drAna.mostrar();
