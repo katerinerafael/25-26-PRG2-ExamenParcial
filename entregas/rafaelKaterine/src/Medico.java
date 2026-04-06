@@ -14,7 +14,8 @@ class Medico {
         this.especialidad = especialidad;
     }
     public void mostrar(){
-        console.writeln("Medico: " + nombre + " | Especialidad: " + especialidad);
+        Console console = new Console();
+        console.writeln("Medico: " + this.nombre + " | Especialidad: " + this.especialidad + " | Horario: " + this.horario);
     }
     public void asignarHorario(Horario horario){
         this.horario = horario;

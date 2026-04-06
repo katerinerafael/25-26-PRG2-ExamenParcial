@@ -13,11 +13,12 @@ class Consulta{
         this.tratamiento = tratamiento;
     }
     public void mostrar(){
-        console.writeln("Consulta:");
-        paciente.mostrar();
-        medico.mostrar();
-        console.writeln("Fecha: " + fecha);
-        console.writeln("Diagnóstico: " + diagnostico);
-        console.writeln("Tratamiento: " + tratamiento);
+        Console console = new Console();
+        console.writeln("--- DETALLE DE CONSULTA ---");
+        this.paciente.mostrar();
+        this.medico.mostrar();
+        console.writeln("Diagnóstico: " + this.diagnostico);
+        console.writeln("Tratamiento: " + this.tratamiento);
+        console.writeln("---------------------------");
     }
 }
